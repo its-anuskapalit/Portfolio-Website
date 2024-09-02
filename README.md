@@ -14,7 +14,4 @@ CSS: Applied custom styling and layout techniques for a polished look.
 JavaScript: Added interactive features and dynamic content.
 Installation and Usage:
 
-Clone the repository using git clone https://github.com/yourusername/portfolio-website.git
-Navigate to the project directory.
-Open index.html in your web browser to view the website.
-Contributing: Feel free to fork the repository and submit pull requests for any improvements or bug fixes.
+
