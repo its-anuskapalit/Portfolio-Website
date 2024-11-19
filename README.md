@@ -20,4 +20,4 @@ A personal portfolio website developed using HTML, CSS, and JavaScript. This web
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/its-anuskapalit/Portfolio-Website
+   git clone https://github.com/its-anuskapalit/Portfolio-Website.git
