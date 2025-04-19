@@ -82,3 +82,10 @@ ScrollReveal().reveal('.home-content h1, .about-img img', {
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', {
   origin: 'right'
 });
+ScrollReveal().reveal('.achievements-container, .achievement-box', {
+  origin: 'bottom'
+});
+ScrollReveal().reveal('.projects-container, .project-box', {
+  origin: 'bottom',
+  interval: 200
+});

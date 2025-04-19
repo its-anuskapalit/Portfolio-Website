@@ -10,6 +10,26 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', 'sans-serif';
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
 
 :root{
     --bg-color: #fdfdfd;
@@ -963,3 +983,218 @@ span{
     font-weight: bold;
     z-index: 1; 
 }
+.achievements {
+    padding: 7rem 5rem;
+    background: var(--bg-color);
+    text-align: center;
+}
+
+.achievements .heading {
+    font-size: 4.5rem;
+    margin-bottom: 4rem;
+    color: var(--text-color);
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.achievement-box {
+    flex: 1 1 28rem;
+    background: var(--white-color);
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 1rem var(--shadow-color);
+    border: .2rem solid var(--main-color);
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.achievement-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .2rem 2rem var(--shadow-color);
+}
+
+.achievement-box i {
+    font-size: 5rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.achievement-box h3 {
+    font-size: 2.2rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.achievement-box p {
+    font-size: 1.5rem;
+    color: #555;
+    text-align: justify;
+}
+.portfolio-slide {
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.portfolio-slide img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-slide:hover {
+    transform: scale(1.03);
+}
+
+.portfolio-slide h3 {
+    font-size: 2rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.portfolio-slide p {
+    font-size: 1.4rem;
+    color: #555;
+}
+.projects {
+    padding: 7rem 5rem;
+    background: var(--bg-color);
+    text-align: center;
+}
+
+.projects .heading {
+    font-size: 4.5rem;
+    margin-bottom: 4rem;
+    color: var(--text-color);
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project-box {
+    background: var(--white-color);
+    border: 2px solid var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 1rem var(--shadow-color);
+    padding: 3rem 2rem;
+    width: 30rem;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .2rem 2rem var(--shadow-color);
+}
+
+.project-box h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+
+.project-box p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.project-box .btn {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+}
+nav a {
+    color: #000000; /* Change this to any dark color like black or navy */
+    font-weight: 600;
+  }
+  
+  /* Optional: Add hover effect */
+  nav a:hover {
+    color: #007BFF; /* Light blue or any accent color */
+    text-decoration: underline;
+  }
+ 
+  nav a {
+    color: #000000 !important;  /* Makes nav links black */
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #007BFF; /* Optional: light blue on hover */
+  }
+  .footer-email {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-email:hover {
+    color: #000; /* or your theme’s highlight color */
+    text-decoration: underline;
+}
+.tech-stack {
+    padding: 6rem 7%;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.tech-stack .heading {
+    font-size: 4.5rem;
+    color: var(--text-color);
+    margin-bottom: 3rem;
+}
+
+.stack-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.stack-item {
+    background: var(--white-color);
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 .2rem 1rem var(--shadow-color);
+    transition: transform 0.3s ease;
+    border: 2px solid var(--main-color);
+}
+
+.stack-item:hover {
+    transform: scale(1.05);
+}
+
+.stack-item img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+}
+
+.stack-item span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+  
+    
